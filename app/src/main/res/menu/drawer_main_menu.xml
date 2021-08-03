@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!-- Category 1: main menu -->
+    <item
+        android:title="@string/drawer_main_menu_cat1">
+        <menu>
+            <!-- 1) Profile -->
+            <item
+                android:title="@string/drawer_main_menu_profile"
+                android:id="@+id/id_drawer_main_menu_profile"/>
+            <!-- 2) Eating -->
+            <item
+                android:title="@string/drawer_main_menu_eating"
+                android:id="@+id/id_drawer_main_menu_eating"/>
+            <!-- 3) Statistics -->
+            <item
+                android:title="@string/drawer_main_menu_statistics"
+                android:id="@+id/id_drawer_main_menu_statistics"/>
+            <!-- 4) Training -->
+            <item
+                android:title="@string/drawer_main_menu_training"
+                android:id="@+id/id_drawer_main_menu_training"/>
+            <!-- 5) Settings -->
+            <item
+                android:title="@string/drawer_main_menu_settings"
+                android:id="@+id/id_drawer_main_menu_settings"/>
+            <!-- 6) Notifications -->
+            <item
+                android:title="@string/drawer_main_menu_notifications"
+                android:id="@+id/id_drawer_main_menu_notifications"/>
+            <!-- 7) About program -->
+            <item
+                android:title="@string/drawer_main_menu_about"
+                android:id="@+id/id_drawer_main_menu_about"/>
+        </menu>
+    </item>
+    <!-- Category 2: account -->
+    <item
+        android:title="@string/drawer_main_menu_cat2">
+        <menu>
+            <item
+                android:title="@string/drawer_main_menu_sign_up"
+                android:id="@+id/id_drawer_main_menu_sign_up"/>
+            <item
+                android:title="@string/drawer_main_menu_sign_in"
+                android:id="@+id/id_drawer_main_menu_sign_in"/>
+            <item
+                android:title="@string/drawer_main_menu_logout"
+                android:id="@+id/id_drawer_main_menu_logout"/>
+        </menu>
+    </item>
+
+</menu>

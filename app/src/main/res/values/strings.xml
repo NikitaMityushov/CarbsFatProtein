@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CarbsFatProtein</string>
+    <!-- 1) Drawer main menu strings -->
+    <string name="drawer_main_menu_cat1">Главное меню</string>
+    <string name="drawer_main_menu_profile">Профиль</string>
+    <string name="drawer_main_menu_eating">Приём пищи</string>
+    <string name="drawer_main_menu_statistics">Статистика</string>
+    <string name="drawer_main_menu_training">Тренировка</string>
+    <string name="drawer_main_menu_settings">Настройки</string>
+    <string name="drawer_main_menu_notifications">Напоминания</string>
+    <string name="drawer_main_menu_about">О программе</string>
+    <string name="drawer_main_menu_cat2">Аккаунт</string>
+    <string name="drawer_main_menu_sign_up">Регистрация</string>
+    <string name="drawer_main_menu_sign_in">Вход</string>
+    <string name="drawer_main_menu_logout">Выход</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
